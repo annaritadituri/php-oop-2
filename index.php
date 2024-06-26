@@ -1,5 +1,10 @@
 <?php
 
+require_once __DIR__ . '/Models/Product.php';
+
+$product1 = new Product('croccantini', 'dog');
+var_dump($product1);
+
 ?>
 
 <!DOCTYPE html>
