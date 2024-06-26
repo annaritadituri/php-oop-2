@@ -8,7 +8,6 @@ class Toy extends Product {
     private string $size;
     private bool $noise;
     private string $color;
-    private string $type;
     private string $product;
 
     //weight methods
@@ -45,15 +44,6 @@ class Toy extends Product {
 
     public function getColor() : string {
         return $this->color;
-    }
-
-    //type methods
-    public function setType(string $type) : void {
-        $this->type = $type;
-    }
-
-    public function getType() : string {
-        return $this->type;
     }
 
     //product methods

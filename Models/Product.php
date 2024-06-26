@@ -12,7 +12,7 @@ class Product {
     function __construct($name, $category) {
         $this->name = $name;
         $cat = new Category($category);
-        $cat->setCategory();
+        $cat->setCategory($category);
         $this->category = $cat->getCategory();
     }
     
